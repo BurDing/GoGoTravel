@@ -1,0 +1,16 @@
+body > div,
+body > div > div,
+body > div > div > div,
+body > div > div > div > div.Login {
+  height: 100%;
+}
+
+.Login__container{
+  position: absolute;
+  top:7vmin;
+  height: 100%;
+  width: 100%;
+  .Login__content{
+    max-width: 50%;
+  }
+}

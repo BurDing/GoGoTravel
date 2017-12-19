@@ -1,0 +1,16 @@
+body > div,
+body > div > div,
+body > div > div > div,
+body > div > div > div > div.Register {
+  height: 100%;
+}
+
+.Register__container{
+  height: 100%;
+  .Register__content{
+
+      position: absolute;
+      top: 25vmin;
+    max-width: 50%;
+  }
+}

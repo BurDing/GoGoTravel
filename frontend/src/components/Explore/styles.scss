@@ -1,0 +1,105 @@
+#map {
+  height: 80%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.i {
+  font-family: 'Cookie', cursive;
+  font-size: 10px;
+}
+
+.mar {
+  position: absolute;
+  top: 20%;
+  left: 73%;
+  overflow: auto;
+}
+
+.mar1 {
+  position: absolute;
+  top: 20%;
+  left: 73%;
+  overflow: auto;
+  animation-name: move;
+  animation-duration: 1s;
+}
+
+@keyframes move {
+  from {left: 93%;}
+    to {left: 73%;}
+}
+
+
+.more {
+  position: absolute;
+  font-style: italic;
+  right: 2%;
+}
+
+.model {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  padding-left: 5%;
+  overflow: scroll;
+}
+
+.bac {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  height: 75%;
+  width: 60%;
+  background: rgba(255,255,255,0.7);
+  z-index: 90;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.close {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  z-index: 200;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+
+.art {
+  position: absolute;
+  left: 67%;
+  top: 25%;
+  width: 30%;
+  height: 75%;
+}
+
+
+.city {
+  font-family: 'Cookie', cursive;
+  font-size: 10vw;
+  line-height: 7vw;
+  transform: rotate(-0deg);
+  padding-bottom: 2vw;
+}
+
+.quote {
+  font-family: 'Cinzel', serif;
+  font-size: 1.2vw;
+}
+
+.say {
+  font-family: 'Satisfy', cursive;
+  font-size: 1.2vw;
+  float: right;
+}
