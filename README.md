@@ -1,6 +1,6 @@
 # GO GO Travel
 
-This is the group project of a course named The Art of Web Programming at UIUC. This app aims to provide a platform which can record user travel stories for wherever they go, and it can also help with travel destination recommendation based on user profile and flight price.
+This is the group project of a course named The Art of Web Programming at UIUC. This app aims to provide a platform which can record user travel stories for wherever they go, and it can also help with travel destination recommendation based on user card such as Spending and Duration
 
 ## Getting started
 
